@@ -1,3 +1,5 @@
+Create a constitution for an AI Knowledge Workspace project.
+
 Project Vision:
 Build an AI-powered personal knowledge system where users can upload documents, organize knowledge, perform semantic search, and interact with documents using Retrieval-Augmented Generation (RAG).
 
@@ -21,3 +23,5 @@ Technical Constraints:
 - ChromaDB
 - Next.js frontend
 - Docker deployment
+
+Generate a project constitution.
