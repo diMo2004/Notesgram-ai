@@ -198,6 +198,14 @@ cython_debug/
 #   Visual Studio Code specific template is maintained in a separate VisualStudioCode.gitignore 
 #   that can be found at https://github.com/github/gitignore/blob/main/Global/VisualStudioCode.gitignore
 #   and can be added to the global gitignore or merged into this file. However, if you prefer, 
+# Project-specific generated files
+backend/.venv/
+backend/.pytest_cache/
+backend/.mypy_cache/
+frontend/node_modules/
+frontend/.next/
+frontend/.turbo/
+frontend/out/
 #   you could uncomment the following to ignore the entire vscode folder
 # .vscode/
 # Temporary file for partial code execution

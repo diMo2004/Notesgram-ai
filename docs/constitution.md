@@ -10,41 +10,41 @@ The project is a knowledge platform that uses AI, not a chatbot that happens to 
 - Uploaded knowledge is the primary asset.
 - Chat is one interface to access knowledge.
 
-1. Explainable Retrieval
+2. Explainable Retrieval
 
 - Every answer must be traceable to retrieved document sources.
 - Citations are mandatory.
 
-1. AI Augments Learning
+3. AI Augments Learning
 
 - AI should help users understand and learn from documents.
 - AI should not replace critical thinking.
 
-1. Backend Quality Over UI Polish
+4. Backend Quality Over UI Polish
 
 - Correctness, retrieval quality, and architecture take priority over visual features.
 
-1. Technology Choices Must Be Explainable
+5. Technology Choices Must Be Explainable
 
 - Every major component must have a documented reason for existing.
 
-1. Framework Independence
+6. Framework Independence
 
 - Concepts and architecture are more important than framework-specific implementations.
 
-1. Measure Quality Over Feature Count
+7. Measure Quality Over Feature Count
 
 - Retrieval quality, latency, and citation accuracy matter more than the number of features.
 
-1. Incremental Delivery
+8. Incremental Delivery
 
 - Every milestone should produce a working system.
 
-1. Production Mindset
+9. Production Mindset
 
 - Handle failures, invalid inputs, and edge cases gracefully.
 
-1. Learn Through Implementation
+10. Learn Through Implementation
 
 - The project exists to develop engineering and GenAI skills, not just produce a demo.
 

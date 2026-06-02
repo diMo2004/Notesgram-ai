@@ -1,6 +1,6 @@
 ## Plan: AI Knowledge Workspace MVP
 
-Build the MVP from a blank workspace: scaffold a FastAPI backend, a Next.js frontend, and local infrastructure for PostgreSQL with pgvector. The implementation should follow the spec’s three prioritized flows in order: PDF ingestion, question answering, and citations. Because the repo currently has no application code, the plan includes foundational project setup, data model design, the RAG pipeline, prompt management, UI wiring, architecture decision records, and end-to-end validation.
+The plan includes foundational project setup, data model design, the RAG pipeline, prompt management, UI wiring, architecture decision records, and end-to-end validation.
 
 **Steps**
 1. Establish the application skeletons first, with a backend service and frontend app as separate top-level areas, plus Docker Compose for local PostgreSQL with pgvector. This is the base dependency for every feature that follows.
