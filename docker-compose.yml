@@ -10,6 +10,8 @@ services:
       - "${PG_PORT:-5432}:5432"
     volumes:
       - db-data:/var/lib/postgresql/data
+
+  # Optional local stub used when you want a lightweight LLM endpoint for UI or integration work.
   mock-llm:
     image: node:18-alpine
     command: ["node", "-e", "require(\"http\").createServer((req,res)=>res.end(JSON.stringify({ok:true}))).listen(8080)"]
