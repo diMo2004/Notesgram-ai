@@ -75,7 +75,7 @@ def search_documents(query: str, top_k: int) -> list[tuple[StoredDocument, float
 
 		intersection = sum((query_tokens & document_tokens).values())
 		union = sum((query_tokens | document_tokens).values())
-		score = float(intersection / union) if union else 0.0
+		score = (intersection / union) if union else 0.0
 		if score > 0:
 			results.append((document, score))
 
